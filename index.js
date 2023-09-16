@@ -11,7 +11,7 @@ const app = express();
 
 
 app.use(helmet());
-app.use(cors({ credentials: true , origin: "http://localhost:5173" }));
+app.use(cors({ credentials: true , origin: "https://share-with-us-orpin.vercel.app/" }));
 app.use(express.json());
 app.use(cookieParser());
 
